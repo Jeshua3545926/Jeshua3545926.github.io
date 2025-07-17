@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeTranslate Pro - Extensión de Traducción para VS Code</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="brand-icon">
+                    <i class="fas fa-language"></i>
+                </div>
+                <span class="brand-text">CodeTranslate Pro</span>  
+            </div>
+            <div class="nav-menu">
+                <a href="#features" class="nav-link">Características</a>
+                <a href="#demo" class="nav-link">Demo</a>
+                <a href="#pricing" class="nav-link">Precios</a>
+                <button class="nav-cta">Instalar Gratis</button>
+            </div>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <div class="hero-grid"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Más de 100K desarrolladores confían en nosotros</span>
+                </div>
+                <h1 class="hero-title">
+                    Traduce tu código
+                    <span class="gradient-text">instantáneamente</span>
+                    en VS Code
+                </h1>
+                <p class="hero-subtitle">
+                    La extensión más avanzada para traducir código, comentarios y documentación 
+                    sin salir de tu editor favorito. Potenciada por IA.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn-primary">
+                        <i class="fas fa-download"></i>
+                        Instalar Extensión
+                    </button>
+                    <button class="btn-secondary">
+                        <i class="fas fa-play"></i>
+                        Ver Demo
+                    </button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">100K+</span>
+                        <span class="stat-label">Instalaciones</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Idiomas</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4.9★</span>
+                        <span class="stat-label">Calificación</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span class="control red"></span>
+                            <span class="control yellow"></span>
+                            <span class="control green"></span>
+                        </div>
+                        <span class="window-title">main.js - VS Code</span>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line">
+                            <span class="line-number">1</span>
+                            <span class="code-text">// Función para calcular el área</span>
+                        </div>
+                        <div class="code-line highlight">
+                            <span class="line-number">2</span>
+                            <span class="code-text">function calculateArea(radius) {</span>
+                            <div class="translation-popup">
+                                <div class="popup-header">
+                                    <i class="fas fa-language"></i>
+                                    <span>Traducción</span>
+                                </div>
+                                <div class="popup-content">
+                                    <div class="translation-item">
+                                        <span class="flag">🇺🇸</span>
+                                        <span>function calculateArea(radius) {</span>
+                                    </div>
+                                    <div class="translation-item">
+                                        <span class="flag">🇫🇷</span>
+                                        <span>fonction calculerAire(rayon) {</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">3</span>
+                            <span class="code-text">  return Math.PI * radius * radius;</span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">4</span>
+                            <span class="code-text">}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    <!-- F
+eatures Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Características Poderosas</h2>
+                <p class="section-subtitle">
+                    Todo lo que necesitas para traducir código de manera eficiente
+                </p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3>Traducción Instantánea</h3>
+                    <p>Traduce cualquier selección de código con un simple atajo de teclado. Sin esperas, sin interrupciones.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>50+ Idiomas</h3>
+                    <p>Soporte completo para más de 50 idiomas de programación y lenguajes naturales.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>IA Avanzada</h3>
+                    <p>Powered by GPT-4 para traducciones precisas que mantienen el contexto del código.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cog"></i>
+                    </div>
+                    <h3>Personalizable</h3>
+                    <p>Configura atajos, idiomas preferidos y ajusta la extensión a tu flujo de trabajo.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <h3>Historial</h3>
+                    <p>Accede a todas tus traducciones anteriores con un historial completo y búsqueda.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Colaboración</h3>
+                    <p>Comparte traducciones con tu equipo y mantén la consistencia en proyectos grandes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demo Section -->
+    <section id="demo" class="demo">
+        <div class="container">
+            <div class="demo-content">
+                <div class="demo-text">
+                    <h2>Ve CodeTranslate Pro en acción</h2>
+                    <p>Descubre lo fácil que es traducir código con nuestra extensión. Un simple clic y tendrás tu código en cualquier idioma.</p>
+                    <ul class="demo-features">
+                        <li><i class="fas fa-check"></i> Selecciona cualquier texto</li>
+                        <li><i class="fas fa-check"></i> Presiona Ctrl+Shift+T</li>
+                        <li><i class="fas fa-check"></i> Obtén la traducción al instante</li>
+                    </ul>
+                    <button class="btn-primary">Probar Ahora</button>
+                </div>
+                <div class="demo-video">
+                    <div class="video-placeholder">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Ver Demo Interactivo</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Planes para Todos</h2>
+                <p class="section-subtitle">Elige el plan que mejor se adapte a tus necesidades</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Gratis</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">0</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> 100 traducciones/mes</li>
+                        <li><i class="fas fa-check"></i> 10 idiomas básicos</li>
+                        <li><i class="fas fa-check"></i> Soporte por email</li>
+                    </ul>
+                    <button class="btn-outline">Comenzar Gratis</button>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-badge">Más Popular</div>
+                    <div class="pricing-header">
+                        <h3>Pro</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">9</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Traducciones ilimitadas</li>
+                        <li><i class="fas fa-check"></i> 50+ idiomas</li>
+                        <li><i class="fas fa-check"></i> IA avanzada</li>
+                        <li><i class="fas fa-check"></i> Historial completo</li>
+                        <li><i class="fas fa-check"></i> Soporte prioritario</li>
+                    </ul>
+                    <button class="btn-primary">Actualizar a Pro</button>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Empresa</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">29</span>
+                            <span class="period">/mes</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> Todo de Pro</li>
+                        <li><i class="fas fa-check"></i> Colaboración en equipo</li>
+                        <li><i class="fas fa-check"></i> API personalizada</li>
+                        <li><i class="fas fa-check"></i> Soporte 24/7</li>
+                    </ul>
+                    <button class="btn-outline">Contactar Ventas</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="brand-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <span class="brand-text">CodeTranslate Pro</span>
+                    <p>La extensión de traducción más avanzada para VS Code</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Producto</h4>
+                        <a href="#features">Características</a>
+                        <a href="#pricing">Precios</a>
+                        <a href="#demo">Demo</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Soporte</h4>
+                        <a href="#">Documentación</a>
+                        <a href="#">Contacto</a>
+                        <a href="#">FAQ</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Empresa</h4>
+                        <a href="#">Acerca de</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Carreras</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 CodeTranslate Pro. Todos los derechos reservados.</p>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="web.js"></script>
+</body>
+</html>
