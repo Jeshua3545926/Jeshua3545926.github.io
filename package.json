@@ -1,18 +1,25 @@
 {
-  "name": "webtraducor",
+  "name": "codetranslate-pro-landing",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "Landing page para CodeTranslate Pro - Extensión de traducción para VS Code",
+  "main": "public/index.html",
   "scripts": {
+    "dev": "vercel dev",
+    "build": "tsc && cp src/web.html public/index.html && cp src/web.css public/web.css && cp src/web.js public/web.js",
     "compile": "tsc",
     "watch": "tsc --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "preview": "vercel --prod",
+    "deploy": "vercel --prod"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
+  "keywords": ["vscode", "extension", "translation", "ai", "codetranslate"],
+  "author": "CodeTranslate Pro Team",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^24.0.14",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vercel": "^37.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
